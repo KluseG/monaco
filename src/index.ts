@@ -70,9 +70,9 @@ export default class Monaco {
       $c[`_${key}`] = $c[key];
 
       // Overwrite method
-      $c[key] = function (...msg: any[]) {
+      $c[key] = (...msg: any[]) => {
         return (_instance as any)[key](...msg).send();
-      }.bind(_instance);
+      };
     });
 
     return _instance;
