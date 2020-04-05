@@ -1,22 +1,22 @@
+/**
+ * @export
+ * @interface ColorConfigConcrete
+ */
+export interface ColorConfigConcrete {
+  background: string;
+  foreground: string;
+}
+
+/**
+ * @export
+ * @interface ColorConfig
+ */
 export interface ColorConfig {
-  error?: {
-    background: string;
-    foreground: string;
-  };
-  info: {
-    background: string;
-    foreground: string;
-  };
-  notice?: {
-    background: string;
-    foreground: string;
-  };
-  success?: {
-    background: string;
-    foreground: string;
-  };
-  warn?: {
-    background: string;
-    foreground: string;
-  };
+  debug?: ColorConfigConcrete;
+  error?: ColorConfigConcrete;
+  info?: ColorConfigConcrete;
+  notice?: ColorConfigConcrete;
+  primary?: ColorConfigConcrete;
+  success?: ColorConfigConcrete;
+  warn?: ColorConfigConcrete;
 }

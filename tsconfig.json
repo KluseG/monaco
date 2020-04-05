@@ -16,7 +16,8 @@
       "@/*": ["src/*"]
     },
     "lib": ["esnext", "dom"],
-    "declaration": true
+    "declaration": true,
+    "typeRoots": ["src/types/*"]
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "tests/**/*.ts", "tests/**/*.tsx"],
   "exclude": ["node_modules", "dist", "**/__tests__/*"]
