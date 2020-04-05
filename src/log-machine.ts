@@ -124,7 +124,7 @@ export class LogMachine {
           `%c ${this.groupName} ${this.location === null ? '' : `@ ${this.location} `}%c ${
             this.logType.slice(0, 1).toUpperCase() + this.logType.slice(1)
           } %c ${this.isCompact ? '' : '\r\n'}%c›`,
-          `background:#343a40; padding:3px; border-radius:3px 0 0 3px; color: #fff;font-family:system-ui;font-weight: normal;`,
+          `background:${this.primary.bg}; padding:3px; border-radius:3px 0 0 3px; color:${this.primary.fg};font-family:system-ui;font-weight: normal;`,
           `background:${this.colors.bg}; padding:3px; border-radius: 0 3px 3px 0; color:${this.colors.fg};font-family:system-ui;font-weight: normal;`,
           'background:transparent',
           `font-size: 14px; line-height: 1; font-weight: bold; color:${this.colors.bg}; padding: 0;font-family:system-ui;`
