@@ -1,8 +1,13 @@
 # Monaco - Console logging redefined
 
+![NPM](https://img.shields.io/npm/l/@kluseg/monaco?style=for-the-badge)
+![npm](https://img.shields.io/npm/dw/@kluseg/monaco?style=for-the-badge)
+![npm bundle size (scoped)](https://img.shields.io/bundlephobia/minzip/@kluseg/monaco?style=for-the-badge)
+![npm (scoped)](https://img.shields.io/npm/v/@kluseg/monaco?style=for-the-badge)
+
 Let's just face it. You're glued to the monitor for at least 8 hours a day of which 4 is for staring at the developer console. And yeah, you have to comment out console method calls you don't need at the moment in order to somehow navigate through this chaos. Oh, you also forgot to remove this temporary `console.debug('HERE')`, which floods user's console in production environment. Have you ever wondered if there is something that could release you from this pain? The answer is "Monaco".
 
-`npm install --save @kluseg/monaco`
+`npm i @kluseg/monaco`
 
 ## What does it actually doing?
 
