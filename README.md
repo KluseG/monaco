@@ -118,6 +118,7 @@ Monaco.$patchConsole();
 #### v1.x
 
 1. Multi-channel support (ability to save logs to file, send to slack channel, etc.).
+2. Logo?
 
 ## Thanks for checking it out!
 
